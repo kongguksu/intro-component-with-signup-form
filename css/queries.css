@@ -1,0 +1,306 @@
+/***** MOBILE-FIRST WORKFLOW *****/
+
+/*********************************************/
+/* ABOVE 496PX */
+@media (min-width: 31em) {
+  .container {
+    width: 26rem;
+  }
+
+  /***** TITLE PART *****/
+  .title--heading {
+    font-size: 2rem;
+  }
+
+  /***** SIGNUP PART *****/
+  /* FREE PLAN */
+  .free-plan--heading {
+    margin: 0 2rem;
+  }
+
+  /* SIGNUP FORM */
+  .signup {
+    padding: 1.9rem;
+  }
+
+  .signup--form {
+    gap: 1.5rem;
+  }
+
+  /* SINGUP BTN */
+  .signup--btn {
+    margin-top: 1.8rem;
+  }
+
+  /***** TERMS AND SERVICES *****/
+  .terms-and-services {
+    font-size: 0.8rem;
+  }
+
+  /***** ADD/REMOVE CLASSES *****/
+  .password-error {
+    bottom: -33%;
+
+    font-size: 0.5rem;
+    text-align: right;
+
+    padding-left: 2rem;
+  }
+}
+
+/*********************************************/
+/* ABOVE 768PX */
+@media (min-width: 48em) {
+  body {
+    background: var(--primary-red) url(../images/bg-intro-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    width: 38rem;
+  }
+
+  /***** TITLE PART *****/
+  .title--detail {
+    font-size: 1.4rem;
+  }
+
+  /***** SIGNUP PART *****/
+  /* FREE PLAN */
+  .free-plan--heading {
+    font-size: 1.2rem;
+  }
+
+  /* SIGNUP FORM */
+  .signup {
+    padding: 2rem 2.2rem;
+    margin-top: 1.6rem;
+  }
+
+  .input {
+    font-size: 1.1rem;
+    padding-left: 1.8rem;
+  }
+
+  /* SINGUP BTN */
+  .signup--btn {
+    margin-top: 2.2rem;
+  }
+
+  .signup--btn h3 {
+    font-size: 1.2rem;
+  }
+
+  /***** ADD/REMOVE CLASSES *****/
+  .password-error {
+    bottom: -37%;
+
+    font-size: 0.6rem;
+  }
+
+  .popup--close_btn {
+    right: 2%;
+  }
+}
+
+/*********************************************/
+/* ABOVE 960PX */
+@media (min-width: 60em) {
+  .container {
+    width: 50rem;
+  }
+
+  /***** TITLE PART *****/
+  .title--heading {
+    font-size: 2.5rem;
+  }
+
+  .title--detail {
+    font-size: 1.7rem;
+  }
+
+  /***** SIGNUP PART *****/
+  /* FREE PLAN */
+  .free-plan--heading {
+    font-size: 1.6rem;
+  }
+
+  /* SIGNUP FORM */
+  .signup {
+    padding: 3rem 2.8rem;
+  }
+
+  .signup--form {
+    gap: 2rem;
+  }
+
+  .input {
+    height: 4.8rem;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+  }
+
+  /* SINGUP BTN */
+  .signup--btn {
+    margin-top: 2.7rem;
+  }
+
+  .signup--btn h3 {
+    font-size: 1.2rem;
+  }
+
+  /***** TERMS AND SERVICES *****/
+  .terms-and-services {
+    font-size: 0.8rem;
+  }
+
+  /***** ADD/REMOVE CLASSES *****/
+  .warning {
+    width: 2rem;
+    height: 2rem;
+
+    font-size: 1.3rem;
+  }
+
+  .small {
+    font-size: 0.8rem;
+  }
+
+  .password-error {
+    bottom: -34%;
+
+    font-size: 0.7rem;
+    text-align: right;
+
+    padding-left: 0;
+  }
+
+  .popup--close_btn {
+    top: 3%;
+  }
+}
+
+/*********************************************/
+/* ABOVE 1400PX */
+@media (min-width: 87.5em) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 70rem;
+    display: grid;
+    grid-template-columns: 1fr 1.15fr;
+    align-items: center;
+    gap: 3rem;
+
+    margin: 0;
+  }
+
+  /***** TITLE PART *****/
+  .title-container {
+    text-align: start;
+  }
+
+  .title--heading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.15;
+  }
+
+  .title--detail {
+    font-size: 1rem;
+
+    margin-top: 1.7rem;
+  }
+
+  /***** SIGNUP PART *****/
+  .signup-container {
+    width: 33.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+  }
+
+  /* FREE PLAN */
+  .free-plan {
+    border-radius: 9px;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.18);
+
+    padding: 1rem 0;
+  }
+
+  .free-plan--heading {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  /* SIGNUP FORM */
+  .signup {
+    border-radius: 9px;
+
+    padding: 2.5rem;
+  }
+
+  .signup--form {
+    gap: 1.5rem;
+  }
+
+  .input {
+    height: 3.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    padding-left: 2rem;
+  }
+
+  .input:focus {
+    border: 1.4px solid var(--accent-blue);
+  }
+
+  /* SINGUP BTN */
+  .signup--btn {
+    box-shadow: 0 5px hsl(154, 59%, 43%);
+
+    margin-top: 2rem;
+  }
+
+  .signup--btn h3 {
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+  }
+
+  /***** TERMS AND SERVICES *****/
+  .terms-and-services {
+    font-size: 0.7rem;
+    margin-top: 1rem;
+  }
+
+  /***** ADD/REMOVE CLASSES *****/
+  .warning {
+    width: 1rem;
+    height: 1rem;
+    font-size: 1rem;
+  }
+
+  .small {
+    bottom: -25%;
+    font-size: 0.7rem;
+  }
+
+  .password-error {
+    bottom: -40%;
+    font-size: 0.6rem;
+
+    padding-left: 1.5rem;
+  }
+
+  .popup--close_btn {
+    top: 3.3%;
+    right: 1.5%;
+  }
+}
