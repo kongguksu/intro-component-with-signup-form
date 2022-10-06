@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/kongguksu/intro-component-with-signup-form.git]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://kongguksu.github.io/intro-component-with-signup-form/]
 
 ## My process
 
